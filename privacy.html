@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Budget Helper — Privacy policy</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.5; color: #222; background: #fff; }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy policy</h1>
+    <p>Last updated: November 22, 2026</p>
+    <p>
+      Budget Helper is a personal tool operated by its owner for their own household. It is not offered to the
+      public.
+    </p>
+    <h2>What it accesses</h2>
+    <ul>
+      <li>
+        <strong>Gmail</strong> (<code>gmail.modify</code>): only the owner's dedicated budget inbox. It reads
+        notification emails from an allowlist of senders (card alerts, payment notifications) and moves processed
+        messages to Trash. It never sends email and never permanently deletes anything.
+      </li>
+      <li><strong>Google Sheets</strong>: only the owner's budget spreadsheet, to add and adjust budget rows.</li>
+      <li><strong>Google sign-in</strong> (<code>openid email profile</code>): to check that a person is on the owner's allowlist.</li>
+    </ul>
+    <h2>How data is used and stored</h2>
+    <p>
+      Email content is used only to suggest budget rows for review. It is stored in the owner's own cloud account
+      (Amazon Web Services) and kept for as long as the owner keeps it. To draft descriptions and categories, parts
+      of an email are sent to an AI model hosted in that same account (Amazon Bedrock), which does not use them for
+      training. Data obtained from Google APIs is not sold, shared with third
+      parties, used for advertising, or used to train AI models.
+    </p>
+    <h2>Revoking access</h2>
+    <p>
+      Access can be revoked at any time at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    </p>
+    <h2>Contact</h2>
+    <p>Questions: open an issue in this site's GitHub repository.</p>
+  </body>
+</html>
